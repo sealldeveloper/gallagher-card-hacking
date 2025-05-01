@@ -3,6 +3,10 @@ A repo for a working PoC of the Gallagher card exploit documented here: https://
 
 This script only works with Mifare Classic (currently) and does not acount for MES.
 
+## Why are you releasing this?
+
+It was a culmination of the process of making my own PoC from documentation and was fairly interesting. The reading of these cards is already [implemented in FlipperZero firmware](https://github.com/flipperdevices/flipperzero-firmware/blob/dev/applications/main/nfc/plugins/supported_cards/gallagher.c)... so this poses little extra risk.
+
 ## Decoding
 ```
 $ python3 gallagher-decode.py -h
